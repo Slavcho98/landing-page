@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+    
+}
+
+/* HEADER */
+
+.header {
+    color:  hsl(210, 10%, 33%);
+    text-align: center;
+    font-size: 18px;
+    background-image: url(images/bg-header-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.header-text {
+    padding-top: 100px;
+}
+.header h1 {
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.header p {
+    font-weight: 400;
+    margin-top: 30px;
+    line-height: 1.7;
+}
+
+.header button {
+    color: #fff;
+    margin: 30px 10px;
+    padding: .8rem;
+    width: 13%;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.header .ios {
+    background-color: hsl(171, 66%, 44%);
+}
+
+.header .mac {
+    background-color: hsl(233, 100%, 69%);
+}
+
+/* SECTION-1 */
+
+.snippets-text {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 18px;
+    color: hsl(210, 10%, 33%);
+
+}
+
+.snippets-text > p {
+    margin-top: 30px;
+    line-height: 1.7;
+}
+
+ .description {
+   display: flex;
+   gap: 3rem;
+   margin-top: 80px;
+   color: hsl(210, 10%, 33%);
+
+}
+
+.description .text {
+      margin: 3rem 2rem;
+}
+
+.text > p {
+    margin: 15px 0;
+
+}
+
+.description img {
+   margin-left: -30px;
+}
+
+/* SECTION-2 */
+
+.Clipboard {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 18px;
+    color: hsl(210, 10%, 33%);
+}
+
+.clipboard-text > p {
+    margin-top: 30px;
+    line-height: 2em;
+   
+    
+}
+
+.clipboard-text > img {
+    margin-top: 100px;
+}
+
+/* SECTION-3 */
+.supercharge {
+    text-align: center;
+}
+
+.supercharge {
+    font-size: 18px;
+    color: hsl(210, 10%, 33%);
+}
+
+.supercharge > p {
+    line-height: 3em;
+    font-size: 18px;
+    color: hsl(210, 10%, 33%)   ;
+
+}
+
+.instructions {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    font-size: 18px;
+    color: hsl(210, 10%, 33%);
+}
+
+.blacklist {
+    padding: 30px;
+}
+
+.blacklist > p {
+   color: hsl(201, 11%, 66%);
+   font-size: 16px;
+}
+
+.blacklist > h3 {
+    margin: 30px 0 10px;
+}
+
+/* SECTION-4 */
+
+.companies {
+    margin: 100px 150px;
+}
+
+.companies img {
+    width: 130px;
+    margin: 35px;
+    
+}
+
+/* SECTION-5 */
+
+.source {
+    text-align: center;
+    font-size: 18px;
+    color: hsl(210, 10%, 33%);
+}
+
+.source p {
+    margin-top: 30px;
+    font-size: 16px;
+    color: hsl(210, 10%, 33%);
+}
+
+.source button {
+    color: #fff;
+    margin: 40px 10px;
+    padding: .8rem 0;
+    width: 13%;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.source .ios {
+    background-color: hsl(171, 66%, 44%);
+}
+
+.source .mac {
+    background-color: hsl(233, 100%, 69%);
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: 50px;
+    width: 100%;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 2rem;
+    background-color: hsl(0, 70%, 96%);
+    color: hsl(201, 11%, 66%);
+}
+
+.foot-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer h3:hover {
+    color: hsl(171, 66%, 44%);
+
+}
+
+.foot-links > img {
+    width: 40px;
+}
+
+.foot-links a {
+    text-decoration: none;
+    color: hsl(201, 11%, 66%);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.foot-links a:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+footer i {
+    color: hsl(210, 10%, 33%);
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+footer i:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 600px)  {
+    .header {
+        font-size: 15px;
+    }
+
+    .header .logo {
+        width: 100px;
+    }
+
+    .header > h1 {
+        font-size: 2em;
+    }
+
+    .header-text > p {
+        font-size: .8em;
+    }
+    
+   .header button {
+    width: 250px;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.snippets-text {
+    font-size: 15px;
+
+}
+
+.description {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 30px;
+    gap: 5px;
+}
+
+.des-img {
+    width: 280px;
+    object-fit: contain;
+}
+
+.text {
+    text-align: center;
+    font-size: 13px;
+    padding-right: 30px;
+}
+
+.Clipboard {
+    margin-top: 30px;
+}
+.clipboard-text h1 {
+    font-size: 1.5em;
+}
+.clipboard-text p{
+    font-size: 1em;
+}
+
+.clipboard-text > img {
+    width: 280px;
+    object-fit: contain;
+}
+.supercharge > p {
+    font-size: 1em;
+}
+
+.instructions {
+    flex-wrap: wrap;
+}
+
+.companies {
+    margin: 0 90px;
+}
+
+.source {
+    margin-top: 50px;
+    padding: 22px;
+}
+.source button {
+    width: 250px;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.source > p {
+    padding-bottom: 20px;
+}
+
+
+.foot-links {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foot-links img {
+    width: 50px;
+    margin-bottom: 20px;
+
+}
+
+footer .links {
+    padding-top: 20px;
+    
+}
+
+.foot-links i {
+    padding-top: 20px;
+}
+
+.foot-links a {
+    padding: 10px;
+    text-decoration: none;
+    color: hsl(201, 11%, 66%);
+}
+
+}
